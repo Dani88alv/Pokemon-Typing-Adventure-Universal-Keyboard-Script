@@ -3,7 +3,7 @@
 -- 3: Italy (QWERTY), 4: Spain (QWERTY), 5: Japan (QWERTY)
 --If you are using a foreign keyboard, select any QWERTY layout
 
-local keyboardCountry = 4
+local keyboardCountry = 0
 
 
 local newinput = {}

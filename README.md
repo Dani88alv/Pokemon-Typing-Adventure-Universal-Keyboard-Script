@@ -22,6 +22,6 @@ Supports keyboard layouts from the US, France, Germany, Italy, Spain and Japan (
 * Japanese Keyboard (QWERTY): ¥, \ <br />
 
 ## Thanks
-* AnimeCommander for making the original script
-* Gjgfuj for modifying the original script
-* RelentlessZard for recommending the Desmume version
+* <a href="https://github.com/AnimeCommander">AnimeCommander</a> for making the original script
+* <a href="https://github.com/gjgfuj">Gjgfuj</a> for modifying the original script
+* <a href="https://www.youtube.com/@relentlesszard8166">RelentlessZard</a> for recommending the Desmume version

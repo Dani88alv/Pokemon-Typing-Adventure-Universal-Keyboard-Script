@@ -21,7 +21,7 @@ Supports keyboard layouts from the US, France, Germany, Italy, Spain and Japan (
 * Italian and Spanish keyboards (QWERTY): < <br />
 * Japanese Keyboard (QWERTY): ¥, \ <br />
 
-## Credits
+## Thanks
 * AnimeCommander for making the original script
 * Gjgfuj for modifying the original script
 * RelentlessZard for recommending the Desmume version

@@ -1,9 +1,9 @@
+local keyboardCountry = 0
+
 --Write the keyboard layout you are using:
 -- 0: US/UK (QWERTY), 1: France (AZERTY), 2: Germany (QWERTZ)
 -- 3: Italy (QWERTY), 4: Spain (QWERTY), 5: Japan (QWERTY)
 --If you are using a foreign keyboard, select any QWERTY layout
-
-local keyboardCountry = 0
 
 
 local newinput = {}
@@ -66,7 +66,6 @@ local keys = {
         ["row4key10"] = "comma",
         ["row4key11"] = "period",
         ["row4key12"] = "slash",
-        ["row4key13"] = "",
 
         ["row5key1"] = "control",
         ["row5key2"] = "",
@@ -136,7 +135,6 @@ local keys = {
         ["row4key10"] = "period",
         ["row4key11"] = "slash",
         ["row4key12"] = "", --MISSING
-        ["row4key13"] = "",
 
         ["row5key1"] = "control",
         ["row5key2"] = "",
@@ -149,7 +147,7 @@ local keys = {
         ["row5key9"] = "left",
         ["row5key10"] = "right"
     },
-    [2] = { --German (QWERTZ)
+    [2] = { --Germany (QWERTZ)
         ["row1key1"] = "", --MISSING
         ["row1key2"] = "1",
         ["row1key3"] = "2",
@@ -206,7 +204,6 @@ local keys = {
         ["row4key10"] = "comma",
         ["row4key11"] = "period",
         ["row4key12"] = "minus",
-        ["row4key13"] = "", --MISSING
 
         ["row5key1"] = "control",
         ["row5key2"] = "",
@@ -219,7 +216,7 @@ local keys = {
         ["row5key9"] = "left",
         ["row5key10"] = "right"
     },
-    [3] = { --Italian (QWERTY)
+    [3] = { --Italy (QWERTY)
         ["row1key1"] = "backslash",
         ["row1key2"] = "1",
         ["row1key3"] = "2",
@@ -276,7 +273,6 @@ local keys = {
         ["row4key10"] = "comma",
         ["row4key11"] = "period",
         ["row4key12"] = "minus",
-        ["row4key13"] = "",
 
         ["row5key1"] = "control",
         ["row5key2"] = "",
@@ -346,7 +342,6 @@ local keys = {
         ["row4key10"] = "comma",
         ["row4key11"] = "period",
         ["row4key12"] = "minus",
-        ["row4key13"] = "",
 
         ["row5key1"] = "control",
         ["row5key2"] = "",
@@ -360,7 +355,7 @@ local keys = {
         ["row5key10"] = "right"
     },
     [5] = { --Japan (QWERTY)
-        ["row1key1"] = "backslash",
+        ["row1key1"] = "tilde",
         ["row1key2"] = "1",
         ["row1key3"] = "2",
         ["row1key4"] = "3",
@@ -371,8 +366,8 @@ local keys = {
         ["row1key9"] = "8",
         ["row1key10"] = "9",
         ["row1key11"] = "0",
-        ["row1key12"] = "leftbracket",
-        ["row1key13"] = "rightbracket",
+        ["row1key12"] = "minus",
+        ["row1key13"] = "plus",
         ["row1key14"] = "backspace",
         ["row1key15"] = "", --MISSING
 
@@ -387,8 +382,8 @@ local keys = {
         ["row2key9"] = "I",
         ["row2key10"] = "O",
         ["row2key11"] = "P",
-        ["row2key12"] = "semicolon",
-        ["row2key13"] = "plus",
+        ["row2key12"] = "leftbracket",
+        ["row2key13"] = "rightbracket",
         ["enter"] = "enter",
 
         ["row3key1"] = "capslock",
@@ -401,9 +396,9 @@ local keys = {
         ["row3key8"] = "J",
         ["row3key9"] = "K",
         ["row3key10"] = "L",
-        ["row3key11"] = "tilde",
+        ["row3key11"] = "semicolon",
         ["row3key12"] = "quote",
-        ["row3key13"] = "slash",
+        ["row3key13"] = "backslash",
 
         ["row4key1"] = "shift",
         ["row4key2"] = "", --MISSING
@@ -416,15 +411,14 @@ local keys = {
         ["row4key9"] = "M",
         ["row4key10"] = "comma",
         ["row4key11"] = "period",
-        ["row4key12"] = "minus",
-        ["row4key13"] = "",
-        ["row4key13"] = "", --MISSING
+        ["row4key12"] = "slash",
+        ["row4key14"] = "", --MISSING
 
         ["row5key1"] = "control",
         ["row5key2"] = "",
-        ["row5key3"] = "",
+        ["row5key3"] = "alt",
         ["row5key4"] = "space",
-        ["row5key5"] = "alt",
+        ["row5key5"] = "",
         ["row5key6"] = "",
         ["row5key7"] = "up",
         ["row5key8"] = "down",
@@ -513,7 +507,7 @@ print('              Original Script by AnimeCommander and TheSandromatic')
 print('                                      Special thanks to fuxoft')
 print('                                      Modified by Danius88')
 print('                        ------------------------------------------------')
-
+print('Selected layout: ', keyboardCountry)
 local inputBuffers = {}
 
 local justinput = false
